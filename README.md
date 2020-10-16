@@ -6,6 +6,7 @@ Teaching an AI to play the snake game using neural networks. Snake game will be 
 - we will train it with X generations of snakes. We will implement a "mutation" mechanism in which for each generation, we will clone the best snake from the X generation and start anew.
 - Design Diagram TBA
 - More info TBA
+- We will use pytorch to train the snake.
 
 ## The Game
 The snake game is a very popular game in which the objective is for the "the snake" to acquire the "apple." Once it "eats" the apple, the snake becomes longer. The game ends when:
