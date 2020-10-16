@@ -3,7 +3,7 @@ Teaching an AI to play the snake game using neural networks. Snake game will be 
 
 ## Design of the Neural Network
 - We will have an observation state from 4 directions
-- we will train it with [enter number] generations of snake
+- we will train it with X generations of snakes. We will implement a "mutation" mechanism in which for each generation, we will clone the best snake from the X generation and start anew.
 - Design Diagram TBA
 - More info TBA
 
