@@ -1,0 +1,15 @@
+# Parameters
+
+# Screen Parameters
+S_WIDTH = 500
+S_HEIGHT = 500
+
+GRIDSIZE = 25
+GRID_WIDTH =  S_HEIGHT/GRIDSIZE
+GRID_HEIGHT = S_WIDTH / GRIDSIZE
+
+# Keys
+UP = (0,-1)
+DOWN = (0,1)
+LEFT = (-1,0)
+RIGHT = (1,0)
