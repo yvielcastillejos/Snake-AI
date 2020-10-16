@@ -7,4 +7,4 @@ The snake game is a very popular game in which the objective is for the "the sna
  - The snake collides with the wall (The wall generator can be turned off in this version, and the snake will just simply pass through and show up on the other side)
 
 Here is a clip of the Snake game generated using pygame (code is included in the repo):
-![Alt Text](https://github.com/yvielcastillejos/Snake-AI/blob/main/game.gif)
+<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/game.gif" width = "250" height = "250">
