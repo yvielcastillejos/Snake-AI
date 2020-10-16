@@ -1,5 +1,5 @@
 # Snake-AI
-Teaching an AI to play the snake game using neural networks. Snake game will be made using a python library called pygame. 
+Teaching an AI to play the snake game using neural networks. Snake game is visualized using a python library called pygame. 
 
 ## Design of the Neural Network
 - We will have 8 inputs (observation state) corresponding to 8 directions relative to the head. Each direction will have 3 extra numbers that conveys information about the snake's distance to its body, to a wall and to the apple.
