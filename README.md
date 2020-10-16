@@ -2,7 +2,7 @@
 Teaching an AI to play the snake game using neural networks. Snake game will be made using a python library called pygame. 
 
 ## Design of the Neural Network
-- We will have an observation state from 4 directions
+- We will have 8 inputs (observation state) corresponding to 8 directions relative to the head. Each direction will have 3 extra numbers that conveys information about the snake's distance to its body, to a wall and to the apple.
 - we will train it with X generations of snakes. We will implement a "mutation" mechanism in which for each generation, we will clone the best snake from the X generation and start anew.
 - Design Diagram TBA
 - More info TBA
