@@ -23,7 +23,8 @@ class Snake(object):
        self.totwall =[]
        # returns previous direction
        self.prev = self.dir
-
+       self.done = False
+       
    def get_head_pos(self):
        return self.pos[0]
 
@@ -42,8 +43,6 @@ class Snake(object):
        if self.len == 1:
            self.dir = point
        # if the lenth of snake is not 1, it can only move for three directions
-       #if point !=  self.prev:
-       #    self.dir = self.prev
        else:
            if tuple(np.array(point)*-1) == self.dir or tuple(np.array(point)*-1) == self.prev:
                self.dir = self.dir
@@ -56,6 +55,7 @@ class Snake(object):
        x, y = self.dir
        new_head = (((cur_head[0]+ (x*GRIDSIZE))%S_WIDTH), ((cur_head[1]+ (y*GRIDSIZE))%S_HEIGHT))
        if len(self.pos) > 2 and (new_head in self.pos[2:]):
+           self.done = True
            self.reset()
        else:
            # insert the new head position
@@ -66,8 +66,9 @@ class Snake(object):
        if self.wall == True:
            self.gen_walls()
            if new_head in self.totwall:
-               self.reset()
-
+               self.done = True
+               self.reset()  
+ 
    def reset(self):
        # make the default values
        self.len = 1
