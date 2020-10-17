@@ -39,7 +39,7 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 | Generation| Visualization| Average Score (100 for one apple; -1 for each move; -50 for dying)| Snake Population|
 |:---------:|:------------:|:------------:|:---------------:|
 |     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     30.0  |     75    |
-|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/GEN5.gif" width  = "150" height = "150"  > | 120 | 75|
+|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "150" height = "150"  > | 120 | 75|
 |     10    | TBA                           |   TBA |TBA|
 |     20     | TBA|TBA|TBA
 ## Next steps
