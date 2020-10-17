@@ -36,11 +36,11 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 ## Results
 - To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data). Training takes quite a long time especially if we want a higher score (that is why the population is small as my computer is not fast enough sadly; although I do have access to a supercomputer, I have to line up for that, I'll use that next time)
 
-| Generation| Visualization| Average Score (100 for one apple; -1 for each move; -50 for dying)| Snake Population|
-|:---------:|:------------:|:------------:|:---------------:|
-|     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     30.0  |     75    |
-|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "150" height = "150"  > | 120 | 75|
-|     10    | TBA                           |   TBA |TBA|
+| Generation| Visualization| Average Score (100 for one apple; -1 for each move; -50 for dying)| Snake Population| Notes|
+|:---------:|:------------:|:------------:|:---------------:|:---:
+|     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     30.0  |75|random|
+|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "150" height = "150"  > | 120 | 75|None|
+|     10    | TBA                           |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
 |     20     | TBA|TBA|TBA
 ## Next steps
  - Use a Deep Reinforcement Learning approach, which is not neccesarily harder; however, it may turn out better than the NN approach
