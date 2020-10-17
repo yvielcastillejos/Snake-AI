@@ -5,7 +5,7 @@ Teaching an AI to play the snake game using neural networks. Snake game is visua
 - We will have 8 inputs (observation state) corresponding to 8 directions relative to the head. Each direction will have 3 extra numbers that conveys information about the snake's distance to its body, to a wall and to the apple.
 - we will train it with X generations of snakes. We will implement a "mutation" mechanism in which for each generation, we will clone the best snake from the X generation and start anew.
 - Each generation will contain 1000 snakes; My computer is slow :((
-- Design Diagram TBA
+- Design Diagram (24 inputs, 2 hidden layers, 3 outputs) TBA
 - More info TBA
 - We will use pytorch to train the snake.
 
