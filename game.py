@@ -65,7 +65,7 @@ class Game():
 
     def render(self):
         # renders the python screen
-        self.clock.tick(1)
+        self.clock.tick(10)
         drawgrid(self.surface)
         self.snake.handle_keys()
         self.snake.draw(self.surface)
