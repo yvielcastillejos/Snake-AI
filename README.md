@@ -17,6 +17,9 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/game.gif" width = "250" height = "250">
 
 ## Results
+| Generation| Visualization| Average Score|
+|:---------:|:------------:|:------------:|
+|     1     |              |     0        |
  TBA
  
 ## Next steps
