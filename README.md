@@ -34,12 +34,13 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Input.jpg" height = 200 width = "200">
 
 ## Results
-- To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data).
+- To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data). Training takes quite a long time especially if we want a higher score (that is why the population decreases as my computer is not fast enough sadly; although I do have access to a supercomputer, I have to line up for that, I'll use that next time)
 
 | Generation| Visualization| Average Score (100 for one apple; 1 for each move)| Snake Population|
 |:---------:|:------------:|:------------:|:---------------:|
-|     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     0  |     1000    |
-|     2     |  TBA | 0 | 500|
+|     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     30  |     1000    |
+|     5     |  <img src = "" width height > | 140 | 30|
+|     10    | TBA                           |   TBA |TBA|
  
 ## Next steps
  - Use a Deep Reinforcement Learning approach, which is not neccesarily harder; however, it may turn out better than the NN approach
