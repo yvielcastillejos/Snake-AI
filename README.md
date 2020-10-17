@@ -36,12 +36,13 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 ## Results
 - To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data). Training takes quite a long time especially if we want a higher score (that is why the population is small as my computer is not fast enough sadly; although I do have access to a supercomputer, I have to line up for that, I'll use that next time)
 
-| Gen| Visualization| Avg Score (100 for one apple; -1 for each move; -50 for dying)| Snake Population| Notes|
+| Gen| Visualization| Avg Score* | Snake Population| Notes|
 |:---------:|:------------:|:------------:|:---------------:|:---:
 |     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "180" height = "150">  |     30.0  |75|random|
 |     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "180" height = "150"  > | 120 | 75|None|
 |     10    | TBA                           |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
 |     20     | TBA|TBA|TBA
+* (100 for one apple; -1 for each move; -50 for dying); This is the score defined by the environment I made and not by the conventional means.
 ## Next steps
  - Use a Deep Reinforcement Learning approach, which is not neccesarily harder; however, it may turn out better than the NN approach
  - Employ different algorithms such as the Greedy Algorithm
