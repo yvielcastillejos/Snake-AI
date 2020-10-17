@@ -31,7 +31,7 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 #### Input Data Logicistics
 - The observation (input values) include the distance of the snake from the wall, apple, and its own body through 8 different directions relative to its head. A figure that may help explain this is shown below:
 
-<img src = "https://github.com/yvielcastillejos/Snake-AI/upload" height = 200 width = "200">
+<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Input.jpg" height = 200 width = "200">
 
 ## Results
 - To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data).
