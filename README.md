@@ -17,6 +17,7 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/game.gif" width = "250" height = "250">
 
 ## Results
+- To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (as shown above). This will allow the neural network to train faster. The essence of the project has not changed so I bellieve it is fine.
 | Generation| Visualization| Average Score|
 |:---------:|:------------:|:------------:|
 |     1     |              |     0        |
