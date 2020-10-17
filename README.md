@@ -20,10 +20,10 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 ## Results
 - To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine.
 
-| Generation| Visualization| Average Score|
-|:---------:|:------------:|:------------:|
-|     1     |              |     0        |
- TBA
+| Generation| Visualization| Average Score (100 for one apple; 1 for each move)| Snake Population|
+|:---------:|:------------:|:------------:|:---------------:|
+|     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "150" height = "150">  |     0  |     1000    |
+|     2     |  TBA | 0 | 500|
  
 ## Next steps
  - Use a Deep Reinforcement Learning approach, which is not neccesarily harder; however, it may turn out better than the NN approach
