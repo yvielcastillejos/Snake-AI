@@ -50,17 +50,17 @@ class Game():
         point = convert(self.action, self.snake)
         if self.done == True:
             self.snake.reset()
-            self.reward = -0.2
+            self.reward = -2
             self.food.random_pos()
             self.snake.done = False
         else:
-            self.reward = -0.1
+            self.reward = -1
         self.snake.turn(point)
         self.snake.move()
         if self.snake.get_head_pos() == self.food.pos:
             self.snake.len += 1
             self.score += 1
-            self.reward = 0.8
+            self.reward = 100
             self.food.random_pos()
         #print(self.reward)
         self.observation = get_obs(self.snake, self.food)
