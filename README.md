@@ -36,16 +36,21 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 ## Results
 - To make it a substantially faster project for me, I have changed the gridsize to be 50 from 25 (which is what I used for the example shown above). This will allow the neural network to train faster. The essence of the project has not changed so I believe it is fine. Note: the game may be "slow" as I set the fps to a low number (useful for debugging and understanding data). Training takes quite a long time especially if we want a higher score (that is why the population is small as my computer is not fast enough sadly; although I do have access to a supercomputer, I have to line up for that, I'll use that next time)
 
-| Gen| Visualization| Avg Score* | Snake Population| Notes|
+| Gen| Visualization| Avg Score* | Snake Population**| Notes|
 |:---------:|:------------:|:------------:|:---------------:|:---:
 |     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "180" height = "150">  |     30.0  |75|The moves are made using a random generator|
 |     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "180" height = "150"  > | 120 | 75|The snake decided that it's best to just stay alive if it can't find the apple; hence, the snake goes in circle if the apple is not in its field of view. (This makes sense as the penalty for staying alive at this time was much smaller than the penalty for dying)|
-|     10    | <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/GEN10.gif" width = "180" height = 150>                          |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
+|     10    | <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/GEN10.gif" width = "180" height = 150>                          |   50 |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
 |     20     | TBA|TBA|TBA
 * (100 for one apple; -1 for each move; -50 for dying); This is the score defined by the environment I made and not by the conventional means.
+** Because my population size was too small (I was contrained by how fast my computer can get and by how fast python can simulate), it will generally take more generations to fully train the snake.
 ## Next steps
  - Use a Deep Reinforcement Learning approach, which is not neccesarily harder; however, it may turn out better than the NN approach
  - Employ different algorithms such as the Greedy Algorithm
 
 ## Acknowledgement
-TBA
+ - This video inspired me to start this. However, it ended there. I did not copy any algorithms from this resource or anywhere online.
+[1] https://www.youtube.com/watch?v=vhiO4WsHA6c&t=2s&ab_channel=Chrispresso
+
+- The structure of my code as can be seen in `game.py` is inspired by a library by openai gym in resource 3. The reason I reconstructed it in a way is that it is a very standard way to represent your game environment. 
+[3] https://gym.openai.com/
