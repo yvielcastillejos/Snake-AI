@@ -39,7 +39,7 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 | Gen| Visualization| Avg Score* | Snake Population| Notes|
 |:---------:|:------------:|:------------:|:---------------:|:---:
 |     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "180" height = "150">  |     30.0  |75|random|
-|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "180" height = "150"  > | 120 | 75|None|
+|     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "180" height = "150"  > | 120 | 75|The snake decided that it's best to just stay alive if it can't find the apple; hence, the snake goes in circle. (This makes sense as the penalty for staying alive at this time was much smaller than the penalty for dying)|
 |     10    | <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/GEN10.gif" width = "180" height = 150>                          |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
 |     20     | TBA|TBA|TBA
 * (100 for one apple; -1 for each move; -50 for dying); This is the score defined by the environment I made and not by the conventional means.
