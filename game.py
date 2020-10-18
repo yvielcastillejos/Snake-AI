@@ -50,22 +50,26 @@ class Game():
         point = convert(self.action, self.snake)
         if self.done == True:
             self.snake.reset()
+            self.reward = -2
+            self.food.random_pos()
             self.snake.done = False
+        else:
+            self.reward = -1
         self.snake.turn(point)
         self.snake.move()
-        self.reward += 1
         if self.snake.get_head_pos() == self.food.pos:
             self.snake.len += 1
             self.score += 1
-            self.reward += 100
+            self.reward = 100
             self.food.random_pos()
+        #print(self.reward)
         self.observation = get_obs(self.snake, self.food)
         self.done = self.snake.done
         return  self.observation, self.reward, self.done, self.info
 
     def render(self):
         # renders the python screen
-        self.clock.tick(10)
+        self.clock.tick(12)
         drawgrid(self.surface)
         self.snake.handle_keys()
         self.snake.draw(self.surface)
@@ -77,6 +81,7 @@ class Game():
 
     def reset(self):
         self.snake.reset()
+        self.food.random_pos()
         return self.snake.get_head_pos()
 
     def prints(self):
