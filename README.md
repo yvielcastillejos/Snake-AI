@@ -40,7 +40,7 @@ Here is a clip of the Snake game generated using pygame (code is included in the
 |:---------:|:------------:|:------------:|:---------------:|:---:
 |     1     |<img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen1.gif"  width = "180" height = "150">  |     30.0  |75|random|
 |     5     |  <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/Gen5_cropped.gif" width  = "180" height = "150"  > | 120 | 75|None|
-|     10    | TBA                           |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
+|     10    | <img src = "https://github.com/yvielcastillejos/Snake-AI/blob/main/Generation/GEN10.gif" width = "180" height = 150>                          |   TBA |TBA|At Gen6, I changed the penalty to -10 per move to avoid the snake going in circles|
 |     20     | TBA|TBA|TBA
 * (100 for one apple; -1 for each move; -50 for dying); This is the score defined by the environment I made and not by the conventional means.
 ## Next steps
