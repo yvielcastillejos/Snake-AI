@@ -49,8 +49,8 @@ Here is a clip of the Snake game generated using pygame (code is included in the
  - Employ different algorithms such as the Greedy Algorithm
 
 ## Acknowledgement
- - This video inspired me to start this. However, it ended there. I did not copy any algorithms from this resource or anywhere online.
+ - This video inspired me to start this. However, it ended there. I did not copy any algorithms from this resource or anywhere online.   
 [1] https://www.youtube.com/watch?v=vhiO4WsHA6c&t=2s&ab_channel=Chrispresso
 
-- The structure of my code as can be seen in `game.py` is inspired by a library by openai gym in resource 3. The reason I reconstructed it in a way is that it is a very standard way to represent your game environment. 
-[3] https://gym.openai.com/
+- The structure of my code as can be seen in `game.py` is inspired by a library by openai gym in resource 3. The reason I reconstructed it in a way is that it is a very standard way to represent your game environment.      
+[2] https://gym.openai.com/
