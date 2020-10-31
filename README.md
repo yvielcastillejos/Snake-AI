@@ -1,5 +1,5 @@
 # Snake-AI
-Teaching an AI to play the snake game using neural networks. Snake game is visualized using a python library called pygame. 
+Teaching an AI to play the snake game using neural networks. Snake game is visualized using pygame. 
 
 ## The Game
 The snake game is a very popular game in which the objective is for the "the snake" to acquire the "apple." Once it "eats" the apple, the snake becomes longer. The game ends when:
